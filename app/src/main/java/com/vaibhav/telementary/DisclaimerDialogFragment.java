@@ -10,6 +10,7 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.DialogFragment;
 
 public class DisclaimerDialogFragment extends DialogFragment {
+
     @NonNull
     @Override
     public Dialog onCreateDialog(Bundle savedInstanceState) {

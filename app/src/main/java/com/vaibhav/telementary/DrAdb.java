@@ -11,7 +11,6 @@ import com.tananaev.adblib.AdbBase64;
 import com.tananaev.adblib.AdbConnection;
 import com.tananaev.adblib.AdbCrypto;
 import com.tananaev.adblib.AdbStream;
-
 import org.apache.commons.codec.binary.Base64;
 
 import java.io.File;
@@ -23,6 +22,7 @@ import java.security.NoSuchAlgorithmException;
 import java.security.spec.InvalidKeySpecException;
 
 public class DrAdb {
+
     public static final String PUBLIC_KEY_NAME = "public.key";
     public static final String PRIVATE_KEY_NAME = "private.key";
     public static String TAG = "Dr.Adb Said : ";
@@ -32,6 +32,7 @@ public class DrAdb {
     public DrAdb(Context context) {
         this.context = context;
         setupCrypto();
+
     }
 
     private static AdbBase64 getBase64Impl() {

@@ -10,6 +10,7 @@ import android.util.Log;
 import androidx.annotation.NonNull;
 
 public class ManagerAdmin extends DeviceAdminReceiver {
+
     ComponentName mDevice_admin;
 
     @Override

@@ -17,6 +17,7 @@ import java.util.Comparator;
 import java.util.List;
 
 public class appProperties {
+
     final Context context;
     final PackageManager pm;
     List<ApplicationInfo> appInfo = new ArrayList<>();
